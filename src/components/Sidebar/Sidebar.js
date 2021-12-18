@@ -24,7 +24,7 @@ export default function Sidebar() {
             className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
             to="/"
           >
-            Notus React
+            C# sarp
           </Link>
           {/* User */}
           <ul className="md:hidden items-center flex flex-wrap list-none">
@@ -50,7 +50,7 @@ export default function Sidebar() {
                     className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
                     to="/"
                   >
-                    Notus React
+                    C# sarp
                   </Link>
                 </div>
                 <div className="w-6/12 flex justify-end">
@@ -79,7 +79,7 @@ export default function Sidebar() {
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
             <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
-              Admin Layout Pages
+            صفحات تخطيط المشرف
             </h6>
             {/* Navigation */}
 
@@ -102,7 +102,7 @@ export default function Sidebar() {
                         : "text-blueGray-300")
                     }
                   ></i>{" "}
-                  Dashboard
+                 لوحة القيادة
                 </Link>
               </li>
 
@@ -124,7 +124,7 @@ export default function Sidebar() {
                         : "text-blueGray-300")
                     }
                   ></i>{" "}
-                  Settings
+                  الإعدادات
                 </Link>
               </li>
 
@@ -146,7 +146,7 @@ export default function Sidebar() {
                         : "text-blueGray-300")
                     }
                   ></i>{" "}
-                  Tables
+                  جدول المتابعة
                 </Link>
               </li>
 
@@ -168,7 +168,7 @@ export default function Sidebar() {
                         : "text-blueGray-300")
                     }
                   ></i>{" "}
-                  Maps
+                  الموقع الجغرافى
                 </Link>
               </li>
             </ul>
@@ -177,7 +177,7 @@ export default function Sidebar() {
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
             <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
-              Auth Layout Pages
+            صفحات تخطيط المصادقة
             </h6>
             {/* Navigation */}
 
@@ -188,7 +188,7 @@ export default function Sidebar() {
                   to="/auth/login"
                 >
                   <i className="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i>{" "}
-                  Login
+                  تسجيل الدخول
                 </Link>
               </li>
 
@@ -198,7 +198,7 @@ export default function Sidebar() {
                   to="/auth/register"
                 >
                   <i className="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"></i>{" "}
-                  Register
+                  يسجل
                 </Link>
               </li>
             </ul>
@@ -207,7 +207,7 @@ export default function Sidebar() {
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
             <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
-              No Layout Pages
+            لا توجد صفحات تخطيط
             </h6>
             {/* Navigation */}
 
@@ -218,7 +218,7 @@ export default function Sidebar() {
                   to="/landing"
                 >
                   <i className="fas fa-newspaper text-blueGray-400 mr-2 text-sm"></i>{" "}
-                  Landing Page
+                  الصفحة المقصودة
                 </Link>
               </li>
 
@@ -228,7 +228,7 @@ export default function Sidebar() {
                   to="/profile"
                 >
                   <i className="fas fa-user-circle text-blueGray-400 mr-2 text-sm"></i>{" "}
-                  Profile Page
+                  الصفحة الشخصية
                 </Link>
               </li>
             </ul>
@@ -237,95 +237,95 @@ export default function Sidebar() {
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
             <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
-              Documentation
+            Documentation
             </h6>
             {/* Navigation */}
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/colors/notus"
+                  href=""
                   target="_blank"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fas fa-paint-brush mr-2 text-blueGray-300 text-base"></i>
-                  Styles
+                  <i className="fas  mr-2 text-blueGray-300 text-base"></i>
+                  أساسيات السى شارب
                 </a>
               </li>
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus"
+                  href=""
                   target="_blank"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-css3-alt mr-2 text-blueGray-300 text-base"></i>
-                  CSS Components
+                  <i className="fab  mr-2 text-blueGray-300 text-base"></i>
+                  السيكوال سيرفر
                 </a>
               </li>
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
+                  href=""
                   target="_blank"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-angular mr-2 text-blueGray-300 text-base"></i>
-                  Angular
+                  <i className="fab  mr-2 text-blueGray-300 text-base"></i>
+                 C# &SQL Server
                 </a>
               </li>
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
+                  href=""
                   target="_blank"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-js-square mr-2 text-blueGray-300 text-base"></i>
-                  Javascript
+                  <i className="fab  mr-2 text-blueGray-300 text-base"></i>
+                  مكتبة الديف إكسبريس
                 </a>
               </li>
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
+                  href=""
                   target="_blank"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-react mr-2 text-blueGray-300 text-base"></i>
-                  NextJS
+                  <i className="fab  mr-2 text-blueGray-300 text-base"></i>
+                  Serenity Asp.net
                 </a>
               </li>
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
+                  href=""
                   target="_blank"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-react mr-2 text-blueGray-300 text-base"></i>
-                  React
+                  <i className="fab  mr-2 text-blueGray-300 text-base"></i>
+                  ASP.NET
                 </a>
               </li>
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
+                  href=""
                   target="_blank"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fas fa-link mr-2 text-blueGray-300 text-base"></i>
-                  Svelte
+                  <i className="fas  mr-2 text-blueGray-300 text-base"></i>
+                  Xamarin.Forms | .NET
                 </a>
               </li>
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
+                  href=""
                   target="_blank"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-vuejs mr-2 text-blueGray-300 text-base"></i>
-                  VueJS
+                  <i className="fab  mr-2 text-blueGray-300 text-base"></i>
+                الخلاصة
                 </a>
               </li>
             </ul>
