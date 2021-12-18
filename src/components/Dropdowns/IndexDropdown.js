@@ -27,7 +27,7 @@ const IndexDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        تصفح الدروس والمشاريع
+        Demo Pages
       </a>
       <div
         ref={popoverDropdownRef}
@@ -41,31 +41,31 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          تخطيط المسئول
+          Admin Layout
         </span>
         <Link
           to="/admin/dashboard"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
-          لوحة القيادة
+          Dashboard
         </Link>
         <Link
           to="/admin/settings"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
-          إعدادات
+          Settings
         </Link>
         <Link
           to="/admin/tables"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
-          جدول المحاضرات
+          Tables
         </Link>
         <Link
           to="/admin/maps"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
-          المحاضرات الجديدة
+          Maps
         </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
         <span

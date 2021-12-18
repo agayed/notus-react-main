@@ -27,7 +27,7 @@ const PagesDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-      تصفح الدروس والمشاريع  
+        Demo Pages
       </a>
       <div
         ref={popoverDropdownRef}

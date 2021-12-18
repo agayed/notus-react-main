@@ -11,7 +11,7 @@ export default function Login() {
               <div className="rounded-t mb-0 px-6 py-6">
                 <div className="text-center mb-3">
                   <h6 className="text-blueGray-500 text-sm font-bold">
-                  قم بتسجيل الدخول باستخدام
+                    Sign in with
                   </h6>
                 </div>
                 <div className="btn-wrapper text-center">
@@ -42,7 +42,7 @@ export default function Login() {
               </div>
               <div className="flex-auto px-4 lg:px-10 py-10 pt-0">
                 <div className="text-blueGray-400 text-center mb-3 font-bold">
-                  <small>أو تسجيل الدخول باستخدام بيانات الاعتماد</small>
+                  <small>Or sign in with credentials</small>
                 </div>
                 <form>
                   <div className="relative w-full mb-3">
@@ -50,7 +50,7 @@ export default function Login() {
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       htmlFor="grid-password"
                     >
-                      البريد الإلكترونى
+                      Email
                     </label>
                     <input
                       type="email"
@@ -64,7 +64,7 @@ export default function Login() {
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       htmlFor="grid-password"
                     >
-                      كلمة المرور
+                      Password
                     </label>
                     <input
                       type="password"
@@ -80,7 +80,7 @@ export default function Login() {
                         className="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
                       />
                       <span className="ml-2 text-sm font-semibold text-blueGray-600">
-                      تذكرنى
+                        Remember me
                       </span>
                     </label>
                   </div>
@@ -90,8 +90,7 @@ export default function Login() {
                       className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                       type="button"
                     >
-                      
-تسجيل الدخول
+                      Sign In
                     </button>
                   </div>
                 </form>
@@ -104,12 +103,12 @@ export default function Login() {
                   onClick={(e) => e.preventDefault()}
                   className="text-blueGray-200"
                 >
-                  <small>هل نسيت كلمة السر؟</small>
+                  <small>Forgot password?</small>
                 </a>
               </div>
               <div className="w-1/2 text-right">
                 <Link to="/auth/register" className="text-blueGray-200">
-                  <small>انشاء حساب جديد</small>
+                  <small>Create new account</small>
                 </Link>
               </div>
             </div>

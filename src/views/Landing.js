@@ -29,12 +29,12 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                  قصتك تبدأ معنا.
+                    Your story starts with us.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                  هذا مثال بسيط لنافذة مقصودة يمكنك إنشاؤها
-                    باستخدام C# يتميز بمكونات devexpress متعددة
-                    في نظام تصميم Windows Form.
+                    This is a simple example of a Landing Page you can build
+                    using Notus React. It features multiple CSS components based
+                    on the Tailwind CSS design system.
                   </p>
                 </div>
               </div>
@@ -70,10 +70,10 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">الوكالة الحاصلة على الجائزة</h6>
+                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                    قسّم التفاصيل حول منتجك أو عمل وكالتك إلى
-                      القطع. ستكون فقرة تصف الميزة كافية.
+                      Divide details about your product or agency work into
+                      parts. A paragraph describing a feature will be enough.
                     </p>
                   </div>
                 </div>
@@ -85,10 +85,10 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">مراجعات مجانية</h6>
+                    <h6 className="text-xl font-semibold">Free Revisions</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                    حافظ على تفاعل المستخدم من خلال تقديم معلومات مفيدة.
-                      تذكر أنه بحلول هذا الوقت ، يكون المستخدم فضوليًا.
+                      Keep you user engaged by providing meaningful information.
+                      Remember that by this time, the user is curious.
                     </p>
                   </div>
                 </div>
@@ -100,10 +100,10 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-fingerprint"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">شركة تم التحقق منها</h6>
+                    <h6 className="text-xl font-semibold">Verified Company</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                    اكتب بضعة أسطر عن كل سطر. فقرة تصف أ
-                      ستكون الميزة كافية. حافظ على تفاعل المستخدم!
+                      Write a few lines about each one. A paragraph describing a
+                      feature will be enough. Keep you user engaged!
                     </p>
                   </div>
                 </div>
@@ -116,18 +116,18 @@ export default function Landing() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                العمل معنا من دواعي سروري
+                  Working with us is a pleasure
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                لا تدع استخداماتك تخمن من خلال إرفاق تلميحات الأدوات و popoves
-                  أي عنصر. فقط تأكد من تمكينهم أولاً عبر
-                  جافا سكريبت.
+                  Don't let your uses guess by attaching tooltips and popoves to
+                  any element. Just make sure you enable them first via
+                  JavaScript.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                تأتي المجموعة مع ثلاث صفحات مسبقة الصنع لمساعدتك في الحصول عليها
-                  بدأت بشكل أسرع. يمكنك تغيير النص والصور وانت
-                  جاهز للمضي. فقط تأكد من تمكينهم أولاً عبر
-                  جافا سكريبت.
+                  The kit comes with three pre-built pages to help you get
+                  started faster. You can change the text and images and you're
+                  good to go. Just make sure you enable them first via
+                  JavaScript.
                 </p>
                 <Link to="/" className="font-bold text-blueGray-700 mt-8">
                   Check Notus React!
@@ -154,12 +154,12 @@ export default function Landing() {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">
-                    خدمات من الدرجة الأولى
+                      Top Notch Services
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                    يتجمد المحيط المتجمد الشمالي كل شتاء ويتجمد الكثير من
-                      ثم يذوب الجليد البحري كل صيف ، وستكون هذه العملية
-                      تواصل مهما حدث.
+                      The Arctic Ocean freezes every winter and much of the
+                      sea-ice then thaws every summer, and that process will
+                      continue whatever happens.
                     </p>
                   </blockquote>
                 </div>
@@ -203,12 +203,11 @@ export default function Landing() {
                   <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
-                  <h3 className="text-3xl font-semibold">
-شركة متنامية</h3>
+                  <h3 className="text-3xl font-semibold">A growing company</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  يأتي الامتداد بثلاث صفحات مبنية مسبقًا لمساعدتك
-                    ابدأ بشكل أسرع. يمكنك تغيير النص والصور و
-                    أنت على ما يرام.
+                    The extension comes with three pre-built pages to help you
+                    get started faster. You can change the text and images and
+                    you're good to go.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -220,7 +219,7 @@ export default function Landing() {
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                          مكونات مصنوعة بعناية
+                            Carefully crafted components
                           </h4>
                         </div>
                       </div>
@@ -234,7 +233,7 @@ export default function Landing() {
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                          أمثلة صفحة مذهلة
+                            Amazing page examples
                           </h4>
                         </div>
                       </div>
@@ -248,7 +247,7 @@ export default function Landing() {
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                          مكونات ديناميكية
+                            Dynamic components
                           </h4>
                         </div>
                       </div>
@@ -264,11 +263,11 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">ها هم أبطالنا</h2>
+                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                وفقًا لـ National Oceanic and Atmospheric
-                  الإدارة ، تيد ، Scambos ، NSIDClead العطور ، يضع
-                  يحتمل أن يسجل الحد الأقصى.
+                  According to the National Oceanic and Atmospheric
+                  Administration, Ted, Scambos, NSIDClead scentist, puts the
+                  potentially record maximum.
                 </p>
               </div>
             </div>
@@ -277,13 +276,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/عبدالجيد.jpg").default}
+                    src={require("assets/img/team-1-800x800.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">عبدالجيد محمد</h5>
+                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                     مبرمج ومحلل بيانات
+                      Web Developer
                     </p>
                     <div className="mt-6">
                       <button
@@ -312,13 +311,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/عباس.jpg").default}
+                    src={require("assets/img/team-2-800x800.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">عباس محمد</h5>
+                    <h5 className="text-xl font-bold">Romina Hadid</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      مطور قواعد بيانات
+                      Marketing Specialist
                     </p>
                     <div className="mt-6">
                       <button
@@ -341,13 +340,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/بيشوي.jpg").default}
+                    src={require("assets/img/team-3-800x800.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">بيشوى فرحان</h5>
+                    <h5 className="text-xl font-bold">Alexa Smith</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      مصمم نوافذ سطح المكتب
+                      UI/UX Designer
                     </p>
                     <div className="mt-6">
                       <button
@@ -376,13 +375,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/على_محمد.jpg").default}
+                    src={require("assets/img/team-4-470x470.png").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">على محمد على</h5>
+                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      مطور إدارى
+                      Founder and CEO
                     </p>
                     <div className="mt-6">
                       <button
@@ -442,12 +441,12 @@ export default function Landing() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                بناء شيء ما
+                  Build something
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                ضع الرقم القياسي الذي يحتمل أن يكون الحد الأقصى لمدى الجليد البحري المنخفض
-                  وصولا إلى انخفاض الجليد. وفقا ل National Oceanic و
-                  إدارة الغلاف الجوي ، تيد ، سكامبوس.
+                  Put the potentially record low maximum sea ice extent tihs
+                  year down to low ice. According to the National Oceanic and
+                  Atmospheric Administration, Ted, Scambos.
                 </p>
               </div>
             </div>
@@ -457,11 +456,11 @@ export default function Landing() {
                   <i className="fas fa-medal text-xl"></i>
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-white">
-                خدمات ممتازة
+                  Excelent Services
                 </h6>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                بعض الأمثلة السريعة على النص للبناء على عنوان البطاقة والماكياج
-                  الجزء الأكبر من محتوى البطاقة.
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -469,11 +468,11 @@ export default function Landing() {
                   <i className="fas fa-poll text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                ينمو السوق الخاص بك
+                  Grow your market
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                بعض الأمثلة السريعة على النص للبناء على عنوان البطاقة والماكياج
-                  الجزء الأكبر من محتوى البطاقة.
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -481,11 +480,11 @@ export default function Landing() {
                   <i className="fas fa-lightbulb text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                وقت الإطلاق
+                  Launch time
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                بعض الأمثلة السريعة على النص للبناء على عنوان البطاقة والماكياج
-                  الجزء الأكبر من محتوى البطاقة.
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
                 </p>
               </div>
             </div>
@@ -498,18 +497,18 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold">
-                    تريد أن تعمل معنا؟
+                      Want to work with us?
                     </h4>
                     <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                    أكمل هذا النموذج وسنعاود الاتصال بك في غضون 24
-                      ساعات.
+                      Complete this form and we will get back to you in 24
+                      hours.
                     </p>
                     <div className="relative w-full mb-3 mt-8">
                       <label
                         className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                         htmlFor="full-name"
                       >
-                       الاسم الكامل
+                        Full Name
                       </label>
                       <input
                         type="text"
@@ -523,7 +522,7 @@ export default function Landing() {
                         className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                         htmlFor="email"
                       >
-                        البريد الإلكترونى
+                        Email
                       </label>
                       <input
                         type="email"
@@ -537,7 +536,7 @@ export default function Landing() {
                         className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                         htmlFor="message"
                       >
-                        رسالة
+                        Message
                       </label>
                       <textarea
                         rows="4"
@@ -551,7 +550,7 @@ export default function Landing() {
                         className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
-                        أرسل رسالة
+                        Send Message
                       </button>
                     </div>
                   </div>
