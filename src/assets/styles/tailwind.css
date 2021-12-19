@@ -2180,6 +2180,7 @@ select {
   top: 0px;
 }
 
+
 .right-0 {
   right: 0px;
 }
@@ -3038,3 +3039,16 @@ select {
 
 @media (min-width: 1536px) {
 }
+ .bt{
+   bottom: 10px;
+ }
+
+
+
+
+
+
+
+
+ /* ================================ */
+ 
